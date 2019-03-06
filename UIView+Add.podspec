@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "UIViewCategory"
+  s.name         = "UIView+Add"
   s.version      = "0.0.1"
-  s.summary      = "快速创建原生UIView对象，支持Masonry."
+  s.summary      = "快速创建原生UIView对象."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 		快速创建原生UIView对象，支持Masonry
                    DESC
 
-  s.homepage     = "http://github.com/gejiangs/UIViewCategory"
+  s.homepage     = "https://github.com/gejiangs/UIViewCategory"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/gejiangs/UIViewCategory.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/gejiangs/UIViewCategory.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "UIViewAdd/*.(h,m)"
+  s.source_files  = "UIViewAdd/*"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
