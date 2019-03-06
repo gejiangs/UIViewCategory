@@ -41,7 +41,7 @@
 }
 
 -(void)addLabel
-{
+{    
     UILabel *lbl = [self.view addLabel:@"this is label" font:[UIFont systemFontOfSize:16] color:[UIColor redColor]];
     [lbl mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
